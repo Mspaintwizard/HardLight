@@ -4,8 +4,8 @@ meta:
   engineVersion: 274.0.0
   forkId: ""
   forkVersion: ""
-  time: 06/11/2026 21:28:45
-  entityCount: 26615
+  time: 06/12/2026 19:08:07
+  entityCount: 26636
 maps:
 - 1
 grids:
@@ -21166,10 +21166,7 @@ entities:
       solution:
         maxVol: 500
         name: tank
-        reagents:
-        - data: []
-          ReagentId: Water
-          Quantity: 500
+        reagents: []
     - type: ContainedSolution
       containerName: tank
   - uid: 17869
@@ -23942,7 +23939,7 @@ entities:
       pos: 0.5,28.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -68152.62
+      secondsUntilStateChange: -69025.96
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -24813,7 +24810,7 @@ entities:
       pos: -18.5,-45.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -133569.9
+      secondsUntilStateChange: -134443.25
       state: Opening
     - type: DeviceLinkSink
       invokeCounter: 1
@@ -25250,7 +25247,7 @@ entities:
       pos: -8.5,20.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -13246.483
+      secondsUntilStateChange: -14119.828
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -25611,7 +25608,7 @@ entities:
       pos: -41.5,-28.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -132833.31
+      secondsUntilStateChange: -133706.66
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -25802,7 +25799,7 @@ entities:
       pos: -46.5,-44.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -44397.895
+      secondsUntilStateChange: -45271.24
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -25971,7 +25968,7 @@ entities:
       pos: -56.5,-45.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -46862.395
+      secondsUntilStateChange: -47735.74
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -26393,7 +26390,7 @@ entities:
       pos: -20.5,-6.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -346115.28
+      secondsUntilStateChange: -346988.62
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -26509,7 +26506,7 @@ entities:
       pos: -42.5,-9.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -133945.02
+      secondsUntilStateChange: -134818.36
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -54348,6 +54345,36 @@ entities:
     - type: Transform
       pos: 77.5,4.5
       parent: 2
+  - uid: 26626
+    components:
+    - type: Transform
+      pos: 64.5,12.5
+      parent: 2
+  - uid: 26627
+    components:
+    - type: Transform
+      pos: 65.5,12.5
+      parent: 2
+  - uid: 26628
+    components:
+    - type: Transform
+      pos: 66.5,12.5
+      parent: 2
+  - uid: 26629
+    components:
+    - type: Transform
+      pos: 66.5,11.5
+      parent: 2
+  - uid: 26630
+    components:
+    - type: Transform
+      pos: 66.5,10.5
+      parent: 2
+  - uid: 26632
+    components:
+    - type: Transform
+      pos: 38.5,29.5
+      parent: 2
 - proto: CableApcStack
   entities:
   - uid: 35
@@ -61442,6 +61469,16 @@ entities:
     components:
     - type: Transform
       pos: -24.5,32.5
+      parent: 2
+  - uid: 26616
+    components:
+    - type: Transform
+      pos: -24.5,22.5
+      parent: 2
+  - uid: 26617
+    components:
+    - type: Transform
+      pos: -24.5,21.5
       parent: 2
 - proto: CableHVStack
   entities:
@@ -84940,7 +84977,7 @@ entities:
       pos: 66.5,12.5
       parent: 2
     - type: Label
-- proto: CrateLewdToys
+- proto: CrateFunToyBox
   entities:
   - uid: 10990
     components:
@@ -85849,6 +85886,13 @@ entities:
     - type: NavMapBeacon
       color: '#52B4E9FF'
       text: EMS Dock A
+- proto: DefaultStationBeaconGateway
+  entities:
+  - uid: 26623
+    components:
+    - type: Transform
+      pos: -68.5,-46.5
+      parent: 2
 - proto: DefaultStationBeaconGravGen
   entities:
   - uid: 11093
@@ -85905,12 +85949,24 @@ entities:
     - type: Transform
       pos: -19.5,-19.5
       parent: 2
+- proto: DefaultStationBeaconMedbay
+  entities:
+  - uid: 26624
+    components:
+    - type: Transform
+      pos: 80.5,11.5
+      parent: 2
 - proto: DefaultStationBeaconMedical
   entities:
   - uid: 11100
     components:
     - type: Transform
       pos: 43.5,7.5
+      parent: 2
+  - uid: 26625
+    components:
+    - type: Transform
+      pos: 44.5,8.5
       parent: 2
 - proto: DefaultStationBeaconMorgue
   entities:
@@ -92877,8 +92933,6 @@ entities:
       rot: 0.009318329393863678 rad
       pos: -29.429272,23.833752
       parent: 2
-    - type: Physics
-      sleepTime: 0.69999933
     - type: SolutionContainerManager
       solutions: null
       containers:
@@ -135486,6 +135540,12 @@ entities:
     - type: Transform
       pos: 2.4318562,41.47218
       parent: 2
+  - uid: 26631
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 37.583656,30.402016
+      parent: 2
 - proto: HandheldGPSBasic
   entities:
   - uid: 17930
@@ -140309,6 +140369,11 @@ entities:
     - type: Transform
       pos: 32.99895,8.163274
       parent: 2
+  - uid: 26636
+    components:
+    - type: Transform
+      pos: 42.556686,-37.553436
+      parent: 2
 - proto: MedkitRadiationFilled
   entities:
   - uid: 17988
@@ -142374,7 +142439,7 @@ entities:
   - uid: 18585
     components:
     - type: Transform
-      pos: 42.48703,-37.88941
+      pos: 42.5645,-38.43625
       parent: 2
   - uid: 18586
     components:
@@ -151068,6 +151133,16 @@ entities:
     - type: Transform
       pos: 46.5,33.5
       parent: 2
+  - uid: 26634
+    components:
+    - type: Transform
+      pos: -19.5,13.5
+      parent: 2
+  - uid: 26635
+    components:
+    - type: Transform
+      pos: -62.5,-35.5
+      parent: 2
 - proto: RandomMeat
   entities:
   - uid: 15985
@@ -159414,11 +159489,11 @@ entities:
       parent: 2
 - proto: SignDirectionalCB1
   entities:
-  - uid: 20995
+  - uid: 26633
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
-      pos: 23.5,44.5
+      pos: 22.5,44.5
       parent: 2
 - proto: SignDirectionalCB2
   entities:
@@ -166265,7 +166340,7 @@ entities:
       pos: -46.5,-9.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -73574.305
+      secondsUntilStateChange: -74447.65
       state: Opening
   - uid: 21494
     components:
@@ -168376,6 +168451,39 @@ entities:
     components:
     - type: Transform
       pos: 25.5,-38.5
+      parent: 2
+- proto: SurveillanceCameraArmouredGeneral
+  entities:
+  - uid: 26619
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -51.5,-45.5
+      parent: 2
+  - uid: 26620
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -64.5,-44.5
+      parent: 2
+  - uid: 26621
+    components:
+    - type: Transform
+      pos: -54.5,-56.5
+      parent: 2
+  - uid: 26622
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -41.5,-52.5
+      parent: 2
+- proto: SurveillanceCameraArmouredSecurity
+  entities:
+  - uid: 26618
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -55.5,-42.5
       parent: 2
 - proto: SurveillanceCameraArmouredService
   entities:
@@ -173928,6 +174036,13 @@ entities:
     components:
     - type: Transform
       pos: 61.5,15.5
+      parent: 2
+- proto: VariantCubeBox
+  entities:
+  - uid: 20995
+    components:
+    - type: Transform
+      pos: -32.017162,32.55179
       parent: 2
 - proto: VehicleKeySecway
   entities:
